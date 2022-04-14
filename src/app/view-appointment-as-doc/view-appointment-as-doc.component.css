@@ -1,0 +1,12 @@
+.patient-card{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    /* border: 2px solid red; */
+}
+.doc-card{
+    width: 50%;
+    float: left;
+    padding: 15px;
+    /* border: 2px solid red; */
+}

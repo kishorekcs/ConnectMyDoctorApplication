@@ -1,19 +1,24 @@
 <div class="card">
-    <div class="float-container">
-
-        <div class="float-child">
-          <div class="green">Float Column 1</div>
-        </div>
-        
-        <div class="float-child">
-          <div class="blue">
-              <div class= "header">
-                    <p class="title">Doctor</p>
-                    <p class="human-name"><b>KCS Kishore chowdary</b></p>
-                    <p class="human-info">Cardiologist</p>
-                </div>
-            </div>
-        </div>
-        
-      </div>
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title id="t1">Doctor</mat-card-title>
+      <mat-card-subtitle id="t2">Dr. Sammy Winchester</mat-card-subtitle>
+      <mat-card-subtitle id="t3">Cardiologist</mat-card-subtitle>
+    </mat-card-header>
+    <hr>
+    <div class="my-call-mail">
+      <mat-card-action>
+        <span class="material-icons">call</span><span>234353453</span><br>
+        <span class="material-icons">email</span><span>lksdnfksndlnsad@gmail.com</span>
+      </mat-card-action>
+    </div>
+    <hr style="width: 1px; height: 70px;" id="vertical-rule">
+    <div class="my-npi-no-location">
+      <mat-card-action>
+        <span>NPI No:234353453</span><br>
+        <span>loc: Hyd</span>
+      </mat-card-action>
+    </div>
+  </mat-card>
 </div>

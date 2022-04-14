@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +10,8 @@ import { ViewAppointmentAsDocComponent } from './view-appointment-as-doc/view-ap
 import { ViewAppointmentAsPatientComponent } from './view-appointment-as-patient/view-appointment-as-patient.component';
 import { PatientCardComponent } from './patient-card/patient-card.component';
 import { DocCardComponent } from './doc-card/doc-card.component';
+import {MatCardModule} from '@angular/material/card';
+
 
 @NgModule({
   declarations: [
@@ -25,8 +27,10 @@ import { DocCardComponent } from './doc-card/doc-card.component';
  ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA],
   providers: [],
   bootstrap: [AppComponent]
 })

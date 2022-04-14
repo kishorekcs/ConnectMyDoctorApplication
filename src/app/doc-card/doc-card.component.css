@@ -1,12 +1,36 @@
-.float-container {
-    /* border: 3px solid #fff; */
-    border-radius: 25px;
-    padding: 20px;
+.example-header-image {
+    background-image: url('https://thumbs.dreamstime.com/b/passport-document-id-photo-business-man-portrait-concept-young-handsome-stylish-guy-formal-wear-white-background-119717703.jpg');
+    background-size:cover;
+    width: 80px;
+    height: 80px;
 }
-.float-child {
+.card{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    border-radius: 20px;
+
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 3px darkslategray;
+}
+.my-call-mail{
     width: 50%;
-    float: right;
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid red;
-}  
+    line-height: 40px;
+    float: left;
+}
+#vertical-rule{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.my-npi-no-location{
+    line-height: 40px;
+    float: left;
+}
+#t1,#t3{
+    font-weight: 100;
+}
+#t2{
+    font-weight: bolder;
+    font-size: larger;
+}

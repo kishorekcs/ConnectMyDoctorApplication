@@ -1,41 +1,35 @@
-.title, .subtitle,.form-label{
-    color: darkslategray;
-    text-shadow: 1px 1px 3px darkslategray;}
-
-.add-tests-section{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 30px;
+.example-header-image {
+    background-image: url(https://www.fairtravel4u.org/wp-content/uploads/2018/06/sample-profile-pic.png);
+    background-size:cover;
+    width: 80px;
+    height: 80px;
 }
-
-.tests{
-    display: inline-block;
-
-    border: 1px solid gray;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding: 5px 10px;
-}
-
-.tests-container{
-    margin-top: 30px;
-}
-
-.tests > p{
-   display: inline; 
-   padding-right: 13px;
-   
-}
-
-.border{
-    border-radius: 10px;
-}
-
 .card{
-    border-radius: 10px;
-    max-width:  40rem;
+    width: 100%;
+    float: left;
+    border-radius: 20px;
+    padding: 15px;
+    /* border: 2px solid red; */
+    box-shadow: 1px 1px 3px darkslategray;
 }
-
-.add > button{
-    margin-top: 10px;
+.my-call-mail{
+    width: 50%;
+    line-height: 40px;
+    float: left;
+}
+#vertical-rule{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.my-dob-blood{
+    line-height: 40px;
+    float: left;
+}
+#t1,#t3{
+    font-weight: 100;
+}
+#t2{
+    font-weight: bolder;
+    font-size: larger;
 }

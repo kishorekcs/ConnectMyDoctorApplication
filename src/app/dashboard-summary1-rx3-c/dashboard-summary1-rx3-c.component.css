@@ -2,6 +2,8 @@
     /* background-color: rgb(235, 30, 30); */
     /* grid-column-gap: 20px; */
     color: #003C5F;
+    box-shadow: 1px 1px 3px darkslategray;
+
     /* border-inline: 10px; */
     /* padding: auto; */
     width:calc(95%/3);

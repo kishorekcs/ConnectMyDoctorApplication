@@ -1,20 +1,24 @@
 <div class="card">
-    <div class="card-body add-tests-section">
-      <div class= "header">
-        <h5 class="card-title title"><b>Patient</b></h5>
-      </div>
-      <div class = "tests-container">
-        <h6 class="card-subtitle subtitle"><b>Selected</b></h6>
-        <!--div class = "tests border mb-4" *ngFor = "let t of test">
-          <p>{{t.name}}</p>
-          <small>X</small>
-        </div-->
-      </div>
-      <div class="mb-3 add">
-        <label for="exampleInputEmail1" class="form-label"><b>Search</b></label>
-        <input type="email" class="form-control" id="exampleInputEmail1" 
-         aria-describedby="emailHelp" >
-        <!-- <button class = "btn btn-primary" (click) = "AddTest()">Add</button> -->
-      </div>
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title id="t1">Patient</mat-card-title>
+      <mat-card-subtitle id="t2">Thanos</mat-card-subtitle>
+      <mat-card-subtitle id="t3">Male, Age 26</mat-card-subtitle>
+    </mat-card-header>
+    <hr>
+    <div class="my-call-mail">
+      <mat-card-action>
+        <span class="material-icons">call</span><span>234353453</span><br>
+        <span class="material-icons">email</span><span>lksdnfksndlnsad@gmail.com</span>
+      </mat-card-action>
     </div>
-  </div>
+    <hr style="width: 1px; height: 70px;" id="vertical-rule">
+    <div class="my-dob-blood">
+      <mat-card-action>
+        <span class="material-icons">event</span><span>14 September 1997</span><br>
+        <span class="material-icons">bloodtype</span><span>O+</span>
+      </mat-card-action>
+    </div>
+  </mat-card>
+</div>
