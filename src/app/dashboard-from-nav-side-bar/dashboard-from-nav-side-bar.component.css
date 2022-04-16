@@ -1,5 +1,6 @@
-.dashboard-doc{
-    margin:0.4%;
+.dashboard-base{
+    margin:0.5%;
+    margin-top: 1%;
     margin-left: 14.2%;
     padding: 1%;
     /* width:100%; */
@@ -11,9 +12,8 @@
     contain: size;
     /* border-left: 20%; */
     /* max-height: fit-content; */
-    background-color:rgb(241, 234, 220);
+    background-color:rgb(197, 204, 204);
     /* margin-top: 5%; */
     /* margin-right: 15%; */
-    /* background-color: rgb(232, 16, 16); */
     /* min-height: 100%; */
 }

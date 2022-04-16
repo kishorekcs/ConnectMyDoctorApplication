@@ -27,9 +27,15 @@
     float: left;
 }
 #t1,#t3{
+    line-height: 15px;
     font-weight: 100;
 }
 #t2{
     font-weight: bolder;
     font-size: larger;
+}
+#icon-patient{
+    float:left;
+    margin-top: 8px;
+    padding-right: 2px;
 }

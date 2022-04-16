@@ -9,7 +9,16 @@ div.side-navbar{
 a.nav-link{
     color: white;
 }
-#icon1{
+#icon{
     /* align-self: right; */
+    /* width: full; */
+    float: left;
+    padding-right: 15px;
+}
+#icon-1{
+    /* align-self: right; */
+    /* width: full; */
+    
+    float: right;
     padding-left: 15px;
 }
