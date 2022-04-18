@@ -1,34 +1,19 @@
-.top-bar{
+.nav{
     background-color:white;
     height:45px;
     box-shadow: 2px 2px 2px gray;
     border-radius: 5px;
     /* margin-left: 10%; */
     /* padding-left: 10%; */
-    padding-left: 15%;
+    /* padding-left: 15%; */
+    margin-left: 14%;
     /* align-items:flex-start; */
     /* text-align:justify; */
     /* table-layout: 4; */
     /* align-self: center; */
     /* -ms-flex-align:start ; */
 }
-.appointments{
-    padding-left: 20px;
-}
-.location,.doctor,.new-appointment{
-    /* margin-left:auto; */
-    padding-left: 25px;
-    padding-right: 25px;
-    border-radius: 20px;
 
-    /* border-right: 50px; */
-    background-color: rgba(245, 245, 245, 0);
-}
-.new-appointment{
-    background-color: whitesmoke;
-    text-decoration: none;
-    color: black;
-}
 table{
     width: 90%;
     border-spacing: 15px;
@@ -36,3 +21,20 @@ table{
 #icon1{
     color: blue;
 }
+/* #appointments{
+    padding-left: 20px;
+} */
+/* #location,#doctor,#new-appointment{
+    //margin-left:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+
+    //border-right: 50px;
+    background-color: rgba(245, 245, 245, 0);
+} */
+/* #new-appointment{
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+} */

@@ -7,7 +7,8 @@
     /* border-inline: 10px; */
     /* padding: auto; */
     width:calc(95%/3);
-    height: 100px;
+    /* height: 100px; */
+    max-height: fit-content;
     align-content: center;
     margin: 5px;
     /* align-self: center; */
@@ -26,4 +27,9 @@
     height: 115px;
     /* background-color: aqua; */
     /* column-gap: 10px; */
+}
+#hr1{
+    /* float:unset; */
+    /* position: 3% bottom; */
+    /* margin-top: auto; */
 }
